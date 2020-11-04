@@ -11,6 +11,12 @@
         <exclude name="StaticAccess" />
     </rule>
     <rule ref="rulesets/codesize.xml" />
+    <rule ref="rulesets/codesize.xml/CyclomaticComplexity" >
+        <priority>5</priority>
+    </rule>
+    <rule ref="rulesets/codesize.xml/NPathComplexity"  >
+        <priority>5</priority>
+    </rule>
     <rule ref="rulesets/controversial.xml" >
         <exclude name="Superglobals" />
     </rule>
